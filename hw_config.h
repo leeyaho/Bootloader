@@ -110,7 +110,7 @@
  ****************************************************************************/
 
 #elif  defined(TARGET_HW_PX4_FMU_V2)
-
+#define BOARD_USB_VBUS_SENSE_DISABLED
 # define APP_LOAD_ADDRESS               0x08004000
 # define BOOTLOADER_DELAY               5000
 # define BOARD_FMUV2
